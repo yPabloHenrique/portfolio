@@ -22,21 +22,98 @@
 body {
     background-color: var(--background-dark);
 }
+header {
+    position: sticky;
+    top: 0%;
+}
 header > nav {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
     padding: 20px;
+    font-size: 18px;
+}
+.nav-itens > i {
+    font-size: 30px;
 }
 .nav-itens > .nav-logo {
     flex-grow: 1;
 }
+.nav-itens > .nav-logo > span > a > img {
+    margin-top: -10px;
+}
 .nav-itens > .nav-links {
+    display: none;
     color: var(--cor-padrao-light);
-    font-size: 18px;
 }
 .nav-itens > .nav-links > a {
     text-decoration: none;
     padding: 20px;
     justify-content: space-between;
+}
+main {
+    max-width: 600px;
+    padding: 20px;
+}
+main > .home-title {
+    display: flex;
+    flex-wrap: wrap;
+}
+main > .home-title > .home-title-child {
+    justify-content: center;
+    justify-items: center;
+    flex-grow: 1;
+    flex-basis: 200;
+}
+main > .home-title > .home-title-child > img, .img-home-title {
+    max-width: 200px;
+    margin: 20px;
+    border-radius: 50%;
+}
+main > .home-title > .home-title-child > h1 {
+    font-size: 2.8em;
+}
+main > .home-title > .home-title-child > h1 > span.home-title-color {
+    color: var(--cor-destaque-dark);
+}
+main > .home-title > .home-title-child > h2 {
+    font-size: 2em;
+    color: var(--cor-destaque-dark);
+}
+main > .home-title > .home-title-child > p {
+    font-size: 1.1em;
+}
+main > .home-title > .home-title-child > button {
+    font-size: 1.1em;
+    background-color: rgb(63, 63, 63);
+    border: transparent;
+    margin-top: 20px;
+}
+main > .home-title > .home-title-child > button:hover{
+    background-color: black;
+    transition: ease-in-out 0.5s;
+    cursor: pointer;
+}
+main > .home-title > .home-title-child > .home-title-curriculum-icon {
+    padding: 15px;
+    border-radius: 30px;
+}
+main > .home-title > .home-title-child > .home-title-curriculum-icon > i{
+    margin-right: 100px;
+}
+main > .home-title > .home-title-child > .home-title-curriculum-icon > a.text-curriculum {
+    position: relative;
+    margin-top: -30px;
+}
+main > .home-title > .home-title-child > .home-title-buttons-icons {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+
+}
+main > .home-title > .home-title-child > .home-title-buttons-icons > i {
+    font-size: 30px;
+}
+main > .home-title > .home-title-child > .home-title-curriculum-icon > i { 
+    font-size: 25px;
 }
