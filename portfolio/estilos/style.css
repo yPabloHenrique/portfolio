@@ -22,10 +22,6 @@
 body {
     background-color: var(--background-dark);
 }
-header {
-    position: sticky;
-    top: 0%;
-}
 header > nav {
     display: flex;
     flex-wrap: nowrap;
@@ -34,6 +30,7 @@ header > nav {
     font-size: 18px;
 }
 .nav-itens > i {
+    cursor: pointer;
     font-size: 30px;
 }
 .nav-itens > .nav-logo {
@@ -47,13 +44,27 @@ header > nav {
     color: var(--cor-padrao-light);
 }
 .nav-itens > .nav-links > a {
+    position: relative;
     text-decoration: none;
     padding: 20px;
     justify-content: space-between;
 }
+.nav-itens > .nav-links > a.nav-links-itens::after {
+    content: "";
+    position: absolute;
+    background-color: rgb(38, 255, 237);
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: 5px;
+    transition: 0.5s;
+}
+.nav-itens > .nav-links > a.nav-links-itens:hover::after {
+    width: 100%;
+}
 main {
     max-width: 600px;
-    padding: 20px;
+    padding: 30px;
 }
 main > .home-title {
     display: flex;
@@ -69,9 +80,10 @@ main > .home-title > .home-title-child > img, .img-home-title {
     max-width: 200px;
     margin: 20px;
     border-radius: 50%;
+    border: transparent;
 }
 main > .home-title > .home-title-child > h1 {
-    font-size: 2.8em;
+    font-size: 2.7em;
 }
 main > .home-title > .home-title-child > h1 > span.home-title-color {
     color: var(--cor-destaque-dark);
@@ -99,7 +111,7 @@ main > .home-title > .home-title-child > .home-title-curriculum-icon {
     border-radius: 30px;
 }
 main > .home-title > .home-title-child > .home-title-curriculum-icon > i{
-    margin-right: 100px;
+    margin-right: 60px;
 }
 main > .home-title > .home-title-child > .home-title-curriculum-icon > a.text-curriculum {
     position: relative;
@@ -116,4 +128,76 @@ main > .home-title > .home-title-child > .home-title-buttons-icons > i {
 }
 main > .home-title > .home-title-child > .home-title-curriculum-icon > i { 
     font-size: 25px;
+}
+main > .page-projects {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 20px;
+}
+main > .page-projects > h1 {
+    margin-top: 20px;
+    text-align: center;
+}
+main > .page-projects > .projects-child {
+    margin: 20px;
+    padding: 20px;
+    border: 3px solid white;
+    border-radius: 20px;
+}
+main > .page-projects > .projects-child > button {
+    padding: 15px;
+    border-radius: 30px;
+    border: 3px solid white;
+    background-color: var(--background-dark);
+    color: white;
+    margin-top: 10px;
+    font-weight: 600;
+}
+main > .page-projects > .projects-child > button:hover{
+    cursor: pointer;
+    background-color: white;
+    transition: ease-in-out 0.5s;
+    color: var(--cor-padrao-light);
+}
+main > .page-tecnologies > .title-tecnologies > h1 {
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+main > .page-tecnologies > .tecnologies-skills {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+main > .page-tecnologies > .tecnologies-skills > .tecnologies-child {
+    padding: 20px;
+    margin: 20px;
+    border: 3px solid white;
+    border-radius: 20px;
+}
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 20px;
+}
+footer > .footer-credits-buttons {
+    display: block;
+    margin: 0 auto;
+}
+footer > .footer-credits-buttons > button {
+    cursor: pointer;
+    margin-bottom: 20px;
+    border: 3px solid white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+}
+footer > .footer-credits-buttons > button > i {
+    font-size: 20px;
+}
+footer > .footer-credits > h5 {
+    text-align: center;
 }
