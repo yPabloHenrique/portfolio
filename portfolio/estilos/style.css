@@ -156,7 +156,7 @@ main > .home-title > .home-title-child > .home-title-curriculum-icon > i {
 }
 .page-projects > .projects-child > .projects-card {
     margin: 20px;
-    padding: 20px;
+    padding: 25px;
     border: 3px solid white;
     border-radius: 20px;
 }
@@ -165,21 +165,26 @@ main > .home-title > .home-title-child > .home-title-curriculum-icon > i {
     font-size: 1.2em;
     margin-bottom: 10px;
 }
-.page-projects > .projects-child > .projects-card > button {
+.page-projects > .projects-child > .projects-card > p {
+    margin-bottom: 25px;
+}
+.page-projects > .projects-child > .projects-card > a {
     padding: 15px;
     border-radius: 30px;
     border: 3px solid white;
     background-color: var(--background-dark);
     color: white;
-    margin-top: 10px;
+    font-size: .8em;
     font-weight: 600;
-    margin-top: 10px;
 }
-.page-projects > .projects-child > .projects-card > button:hover{
+.page-projects > .projects-child > .projects-card > a:hover{
     cursor: pointer;
     background-color: white;
     transition: ease-in-out 0.5s;
     color: var(--cor-padrao-light);
+}
+.page-projects > .projects-child > .projects-card > a {
+    text-decoration: none;
 }
 .page-tecnologies > .title-tecnologies > h1 {
     font-family: var(--font-titulo);
@@ -192,7 +197,7 @@ main > .home-title > .home-title-child > .home-title-curriculum-icon > i {
     flex-direction: column;
 }
 .page-tecnologies > .tecnologies-child > .tecnologies-card {
-    padding: 20px;
+    padding: 25px;
     margin: 20px;
     border: 3px solid white;
     border-radius: 20px;
