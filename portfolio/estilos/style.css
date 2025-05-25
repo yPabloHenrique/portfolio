@@ -79,8 +79,8 @@ main > .home-title > .home-title-child {
     flex-basis: 200;
 }
 main > .home-title > .home-title-child > img {
+    margin: 0 auto;
     max-width: 200px;
-    margin: 20px;
     border-radius: 50%;
     border: transparent;
 }
