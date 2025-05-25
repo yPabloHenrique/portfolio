@@ -9,4 +9,24 @@
     .nav-itens > i {
         display: none;
     }
+    main {
+        max-width: 1400px;
+    }
+    .page-projects > .projects-child {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    .page-projects > .projects-child > .projects-card {
+        max-width: 400px;
+    }
+    .page-tecnologies > .tecnologies-child {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .page-tecnologies > .tecnologies-child > .tecnologies-card {
+        max-width: 400px;
+    }
 }

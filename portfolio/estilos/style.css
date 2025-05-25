@@ -12,7 +12,6 @@
     --font-padrao: "Poppins", sans-serif;
     --font-titulo: "Montserrat", sans-serif;
 }
-
 * {
     margin: 0;
     padding: 0;
@@ -69,6 +68,7 @@ main {
 main > .home-title {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
 }
 main > .home-title > .home-title-child {
     justify-content: center;
@@ -76,23 +76,29 @@ main > .home-title > .home-title-child {
     flex-grow: 1;
     flex-basis: 200;
 }
-main > .home-title > .home-title-child > img, .img-home-title {
+main > .home-title > .home-title-child > img {
     max-width: 200px;
     margin: 20px;
     border-radius: 50%;
     border: transparent;
 }
 main > .home-title > .home-title-child > h1 {
+    font-family: var(--font-titulo);
+    text-align: center;
     font-size: 2.7em;
 }
 main > .home-title > .home-title-child > h1 > span.home-title-color {
     color: var(--cor-destaque-dark);
 }
 main > .home-title > .home-title-child > h2 {
+    font-family: var(--font-titulo);
+    text-align: center;
     font-size: 2em;
     color: var(--cor-destaque-dark);
 }
 main > .home-title > .home-title-child > p {
+    margin-top: 20px;
+    max-width: 600px;
     font-size: 1.1em;
 }
 main > .home-title > .home-title-child > button {
@@ -100,9 +106,14 @@ main > .home-title > .home-title-child > button {
     background-color: rgb(63, 63, 63);
     border: transparent;
     margin-top: 20px;
+    margin-left: 10px;
+}
+main > .home-title > .home-title-child > button > a {
+    text-decoration: none;
 }
 main > .home-title > .home-title-child > button:hover{
     background-color: black;
+    border: 3px solid white;
     transition: ease-in-out 0.5s;
     cursor: pointer;
 }
@@ -110,7 +121,7 @@ main > .home-title > .home-title-child > .home-title-curriculum-icon {
     padding: 15px;
     border-radius: 30px;
 }
-main > .home-title > .home-title-child > .home-title-curriculum-icon > i{
+main > .home-title > .home-title-child > .home-title-curriculum-icon > i {
     margin-right: 60px;
 }
 main > .home-title > .home-title-child > .home-title-curriculum-icon > a.text-curriculum {
@@ -121,31 +132,36 @@ main > .home-title > .home-title-child > .home-title-buttons-icons {
     height: 50px;
     width: 50px;
     border-radius: 50%;
-
 }
-main > .home-title > .home-title-child > .home-title-buttons-icons > i {
+main > .home-title > .home-title-child > .home-title-buttons-icons > a > i {
     font-size: 30px;
 }
 main > .home-title > .home-title-child > .home-title-curriculum-icon > i { 
     font-size: 25px;
 }
-main > .page-projects {
+.page-projects {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
     margin-top: 20px;
 }
-main > .page-projects > h1 {
+.page-projects > .title-projects > h1 {
+    font-family: var(--font-titulo);
+    font-size: 2em;
     margin-top: 20px;
     text-align: center;
 }
-main > .page-projects > .projects-child {
+.page-projects > .projects-child > .projects-card {
     margin: 20px;
     padding: 20px;
     border: 3px solid white;
     border-radius: 20px;
 }
-main > .page-projects > .projects-child > button {
+.page-projects > .projects-child > .projects-card > h1 {
+    font-family: var(--font-titulo);
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+.page-projects > .projects-child > .projects-card > button {
     padding: 15px;
     border-radius: 30px;
     border: 3px solid white;
@@ -153,28 +169,34 @@ main > .page-projects > .projects-child > button {
     color: white;
     margin-top: 10px;
     font-weight: 600;
+    margin-top: 10px;
 }
-main > .page-projects > .projects-child > button:hover{
+.page-projects > .projects-child > .projects-card > button:hover{
     cursor: pointer;
     background-color: white;
     transition: ease-in-out 0.5s;
     color: var(--cor-padrao-light);
 }
-main > .page-tecnologies > .title-tecnologies > h1 {
-    font-size: 20px;
+.page-tecnologies > .title-tecnologies > h1 {
+    font-family: var(--font-titulo);
+    font-size: 2em;
     margin-top: 20px;
     text-align: center;
 }
-main > .page-tecnologies > .tecnologies-skills {
+.page-tecnologies > .tecnologies-child {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
 }
-main > .page-tecnologies > .tecnologies-skills > .tecnologies-child {
+.page-tecnologies > .tecnologies-child > .tecnologies-card {
     padding: 20px;
     margin: 20px;
     border: 3px solid white;
     border-radius: 20px;
+}
+.page-tecnologies > .tecnologies-child > .tecnologies-card > h1 {
+    font-family: var(--font-titulo);
+    font-size: 1.2em;
+    margin-bottom: 10px;
 }
 footer {
     display: flex;
@@ -194,8 +216,9 @@ footer > .footer-credits-buttons > button {
     width: 50px;
     height: 50px;
     background-color: black;
+    margin-left: 10px;
 }
-footer > .footer-credits-buttons > button > i {
+footer > .footer-credits-buttons > button > a > i {
     font-size: 20px;
 }
 footer > .footer-credits > h5 {
