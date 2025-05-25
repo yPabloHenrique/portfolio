@@ -10,7 +10,15 @@
         display: none;
     }
     main {
+        display: block;
+        margin: 0 auto;
         max-width: 1400px;
+    }
+    main > .home-title > .home-title-child > img {
+        margin: 0 auto;
+    }
+    main > .home-title > .home-title-child > p {
+        margin: 0 auto;
     }
     .page-projects > .projects-child {
         display: flex;
