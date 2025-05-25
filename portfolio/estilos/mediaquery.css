@@ -19,6 +19,7 @@
     }
     main > .home-title > .home-title-child > p {
         margin: 0 auto;
+        text-align: center;
     }
     .page-projects > .projects-child {
         display: flex;
