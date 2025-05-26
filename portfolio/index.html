@@ -9,20 +9,19 @@
     <title>Portfólio - SmokeDEV</title>
 </head>
 <body>
+    <div class="header finisher-header" style="width: 100%;">
     <!-- Navegação do Site -->
     <header>
-            <nav class="nav-itens">
-                <section class="nav-logo">
-                    <span><a href="index.html"><img src="imagens/icons8-html-50.png" alt=""></a></span>
-                </section>
-                <i class="fa-solid fa-bars" style="color: #ffffff;" class="itens" id="burguer"></i>
-                <section class="nav-links">
-                    <a href="#inicio" class="nav-links-itens">Início</a>
-                    <a href="#projetos" class="nav-links-itens">Projetos</a>
-                    <a href="#tecnologias" class="nav-links-itens">Tecnologias</a>
-                    <a href="#contato" class="nav-links-itens">Contato</a>
-                </section>
-            </nav>
+        <img src="imagens/icons8-html-50.png" alt="logo">
+        <i class="fa-solid fa-bars" style="font-size: 20px;" id="burger" onclick="clickMenu()"></i>
+        <menu id="itens">
+            <ul>
+                <li><a class="nav-links" href="">Contato</a></li>
+                <li><a class="nav-links" href="">Tecnologias</a></li>
+                <li><a class="nav-links" href="">Projetos</a></li>
+                <li><a class="nav-links" href="">Início</a></li>
+            </ul>
+        </menu>
     </header>
 <!-- Corpo do Site -->
     <main>
@@ -124,6 +123,7 @@
                 </section>
             </section>
         </section>
+        </div>
 <!-- Footer do Site -->
                 <hr>
     <footer class="page-contacts">
@@ -137,24 +137,62 @@
                 <h5>Copyright &copy; 2025 SmokeDEV | Todos os Direitos Reservados.</h5>
             </section>
         </footer>
-<script>
-function clickMenu(){
-    if (itens.style.display == 'block') {
-        itens.style.display = 'none'
+    <script src="finisher-header.es5.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+new FinisherHeader({
+  "count": 100,
+  "size": {
+    "min": 5,
+    "max": 10,
+    "pulse": 0
+  },
+  "speed": {
+    "x": {
+      "min": 0,
+      "max": 1,
+    },
+    "y": {
+      "min": 0,
+      "max": 0.8,
     }
-    else {
-        itens.style.display = 'block'
-    }
-}
-function mudouTamanho(){
-    if (window.innerWidth >= 768) {
-        itens.style.display = 'block'
-    }
-    else {
-        itens.style.display = 'none'
-    }
-}
+  },
+  "colors": {
+    "background": "#000000",
+    "particles": [
+      "#fbfcca",
+      "#d7f3fe",
+      "#ffd0a7"
+    ]
+  },
+  "blending": "overlay",
+  "opacity": {
+    "center": 1,
+    "edge": 0
+  },
+  "skew": 0,
+  "shapes": [
+    "c"
+  ]
+});
 </script>
+<script>
+        function clickMenu(){
+        if (itens.style.display == 'block') {
+            itens.style.display = 'none'
+        }
+        else {
+            itens.style.display = 'block'
+        }
+    }
+    function mudouTamanho(){
+        if (window.innerWidth >= 768) {
+            itens.style.display = 'block'
+        }
+        else {
+            itens.style.display = 'none'
+        }
+    }
+    </script>
     <script src="https://kit.fontawesome.com/2dc12609db.js" crossorigin="anonymous"></script>
 </body>
 </html>
