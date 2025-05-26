@@ -135,42 +135,49 @@ main > .home-title > .home-title-child > p {
     max-width: 600px;
     font-size: 1.1em;
 }
-main > .home-title > .home-title-child > button {
+main > .home-title > .home-title-child > .buttons-title > button {
     font-size: 1.1em;
     background-color: rgb(63, 63, 63);
     border: transparent;
     margin-top: 20px;
     margin-left: 10px;
 }
-main > .home-title > .home-title-child > button > a {
+main > .home-title > .home-title-child > .buttons-title > button > a {
     text-decoration: none;
 }
-main > .home-title > .home-title-child > button:hover{
+main > .home-title > .home-title-child > .buttons-title > button:hover{
     background-color: black;
     border: 3px solid white;
     transition: ease-in-out 0.5s;
     cursor: pointer;
 }
-main > .home-title > .home-title-child > .home-title-curriculum-icon {
+main > .home-title > .home-title-child > .buttons-title {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+main > .home-title > .home-title-child > .buttons-title > .home-title-curriculum-icon {
     padding: 15px;
     border-radius: 30px;
 }
-main > .home-title > .home-title-child > .home-title-curriculum-icon > i {
-    margin-right: 60px;
+main > .home-title > .home-title-child > .buttons-title > .home-title-curriculum-icon > i {
+    margin-right: 50px;
 }
-main > .home-title > .home-title-child > .home-title-curriculum-icon > a.text-curriculum {
+main > .home-title > .home-title-child > .buttons-title > .home-title-curriculum-icon > a.text-curriculum {
     position: relative;
     margin-top: -30px;
 }
-main > .home-title > .home-title-child > .home-title-buttons-icons {
+main > .home-title > .home-title-child > .buttons-title > .home-title-buttons-icons {
+    justify-content: flex-end;
     height: 50px;
     width: 50px;
     border-radius: 50%;
 }
-main > .home-title > .home-title-child > .home-title-buttons-icons > a > i {
+main > .home-title > .home-title-child > .buttons-title > .home-title-buttons-icons > a > i {
     font-size: 30px;
 }
-main > .home-title > .home-title-child > .home-title-curriculum-icon > i { 
+main > .home-title > .home-title-child > .buttons-title > .home-title-curriculum-icon > i { 
     font-size: 25px;
 }
 .page-projects {
