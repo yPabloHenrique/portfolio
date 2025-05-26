@@ -16,17 +16,17 @@
         <i class="fa-solid fa-bars" style="font-size: 20px;" id="burger" onclick="clickMenu()"></i>
         <menu id="itens">
             <ul>
-                <li><a class="nav-links" href="">Contato</a></li>
-                <li><a class="nav-links" href="">Tecnologias</a></li>
-                <li><a class="nav-links" href="">Projetos</a></li>
-                <li><a class="nav-links" href="">Início</a></li>
+                <li><a class="nav-links" href="#contato">Contato</a></li>
+                <li><a class="nav-links" href="#tecnologias">Tecnologias</a></li>
+                <li><a class="nav-links" href="#projetos">Projetos</a></li>
+                <li><a class="nav-links" href="#inicio">Início</a></li>
             </ul>
         </menu>
     </header>
 <!-- Corpo do Site -->
     <main>
 <!-- Apresentação -->
-        <section class="home-title">
+        <section class="home-title" id="inicio">
             <section class="home-title-child">
                 <img src="imagens/person.jpg" class="img-home-title">
                 <h1>Olá, sou <span class="home-title-color">Pablo Henrique</span>!</h1>
@@ -40,7 +40,7 @@
         </section>
     </main>
 <!-- Projetos -->
-        <section class="page-projects">
+        <section class="page-projects" id="projetos">
             <section class="title-projects">
                 <hr>
                 <h1>Projetos</h1>
@@ -85,7 +85,7 @@
                 </section>
         </section>
 <!-- Tecnologias -->
-        <section class="page-tecnologies">
+        <section class="page-tecnologies" id="tecnologias">
             <section class="title-tecnologies">
                 <hr>
                 <h1>Tecnologias</h1>
@@ -126,7 +126,7 @@
         </div>
 <!-- Footer do Site -->
                 <hr>
-    <footer class="page-contacts">
+    <footer class="page-contacts" id="contato">
         <section class="footer-credits-buttons">
             <button><a href="https://bsky.app/profile/ysmoke.bsky.social" rel="external" target="_blank"><i class="fa-brands fa-bluesky" style="color: #ffffff;"></i></a></button>
             <button><a href="https://www.instagram.com/ysmoke.smk/" rel="external" target="_blank"><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></a></button>
@@ -191,6 +191,23 @@ new FinisherHeader({
         else {
             itens.style.display = 'none'
         }
+    }
+    let sections = document.querySelectorAll('section')
+    let navLinks = document.querySelectorAll('header nav a')
+
+    window.onscroll = () => {
+        sections.forEach(sec => {
+            let top = window.scrollY;
+            let offset = sec.offsetTop - 150;
+            let height = sec.offsetHeight;
+            let id = sec.getAttribute('id')
+            if (top >= offset && top < offset + height) {
+                navLinks.forEach(links => {
+                    links.classList.remove('active')
+                    document.querySelector('header menu ul li a [href*=]' + id + ']').classList.add('active');
+                })
+            }
+        })
     }
     </script>
     <script src="https://kit.fontawesome.com/2dc12609db.js" crossorigin="anonymous"></script>
