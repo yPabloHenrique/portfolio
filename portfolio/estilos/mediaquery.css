@@ -20,6 +20,9 @@ i#burger {
         margin: 0 auto;
         max-width: 1400px;
     }
+    menu {
+        margin-top: 10px;
+    }
     main > .home-title > .home-title-child > img {
         margin: 0 auto;
     }
