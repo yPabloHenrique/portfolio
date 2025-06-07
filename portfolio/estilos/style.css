@@ -137,25 +137,26 @@ main > .home-title > .home-title-child > p {
 }
 main > .home-title > .home-title-child > .buttons-title > button {
     font-size: 1.1em;
-    background-color: rgb(63, 63, 63);
-    border: transparent;
+    width: 55%;
+    background-color: transparent;
+    border: 3px solid white;
     margin-top: 20px;
-    margin-left: 10px;
+    margin-left: 20px;
 }
 main > .home-title > .home-title-child > .buttons-title > button > a {
     text-decoration: none;
 }
 main > .home-title > .home-title-child > .buttons-title > button:hover{
-    background-color: black;
-    border: 3px solid white;
-    transition: ease-in-out 0.5s;
+    transform: scale(1.1);
+    transition: .7s;
     cursor: pointer;
 }
 main > .home-title > .home-title-child > .buttons-title {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     flex-direction: row;
     text-align: center;
+    justify-content: space-evenly;
 }
 main > .home-title > .home-title-child > .buttons-title > .home-title-curriculum-icon {
     padding: 15px;
@@ -170,8 +171,8 @@ main > .home-title > .home-title-child > .buttons-title > .home-title-curriculum
 }
 main > .home-title > .home-title-child > .buttons-title > .home-title-buttons-icons {
     justify-content: flex-end;
-    height: 50px;
-    width: 50px;
+    height: 60px;
+    width: 65px;
     border-radius: 50%;
 }
 main > .home-title > .home-title-child > .buttons-title > .home-title-buttons-icons > a > i {
@@ -270,6 +271,10 @@ footer > .footer-credits-buttons > button {
     height: 50px;
     background-color: black;
     margin-left: 10px;
+}
+footer > .footer-credits-buttons > button:hover {
+    transition: .7s;
+    transform: scale(1.1);
 }
 footer > .footer-credits-buttons > button > a > i {
     font-size: 20px;
