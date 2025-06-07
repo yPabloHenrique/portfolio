@@ -45,3 +45,20 @@ i#burger {
         max-width: 400px;
     }
 }
+
+@media screen and (max-width: 380px) {
+    main > .home-title > .home-title-child > .buttons-title > .home-title-curriculum-icon {
+        padding: 15px;
+        margin-left: -10px;
+        border-radius: 45px;
+    }
+    main > .home-title > .home-title-child > .buttons-title > .home-title-curriculum-icon > a.text-curriculum {
+        margin-right: -30px;
+    }
+    main > .home-title > .home-title-child > .buttons-title > .home-title-curriculum-icon > a.text-curriculum > span {
+        display: none;
+    }
+    main > .home-title > .home-title-child > .buttons-title > .home-title-buttons-icons {
+        padding: 10px;
+    }
+}

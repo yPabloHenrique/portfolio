@@ -162,21 +162,24 @@ main > .home-title > .home-title-child > .buttons-title > .home-title-curriculum
     padding: 15px;
     border-radius: 30px;
 }
-main > .home-title > .home-title-child > .buttons-title > .home-title-curriculum-icon > i {
+main > .home-title > .home-title-child > .buttons-title > .home-title-curriculum-icon > a > i {
+    font-size: 20px;
     margin-right: 30px;
 }
 main > .home-title > .home-title-child > .buttons-title > .home-title-curriculum-icon > a.text-curriculum {
+    font-size: 0.9em;
     position: relative;
     margin-top: -30px;
 }
 main > .home-title > .home-title-child > .buttons-title > .home-title-buttons-icons {
-    justify-content: flex-end;
-    height: 60px;
-    width: 65px;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 55px;
     border-radius: 50%;
 }
 main > .home-title > .home-title-child > .buttons-title > .home-title-buttons-icons > a > i {
-    font-size: 30px;
+    font-size: 25px;
 }
 main > .home-title > .home-title-child > .buttons-title > .home-title-curriculum-icon > i { 
     font-size: 25px;
