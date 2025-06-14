@@ -93,7 +93,6 @@ main > .home-title > .home-title-child {
     justify-content: center;
     justify-items: center;
     flex-grow: 1;
-    flex-basis: 200;
 }
 main > .home-title > .home-title-child > img {
     display: block;
@@ -322,6 +321,7 @@ footer > .footer-credits-buttons > button:hover {
 footer > .footer-credits-buttons > button > a > i {
     font-size: 20px;
 }
-footer > .footer-credits > h5 {
+footer > .footer-credits > h1 {
+    font-size: 14px;
     text-align: center;
 }
