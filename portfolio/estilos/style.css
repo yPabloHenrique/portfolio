@@ -42,53 +42,40 @@ header {
 header > img {
     margin-top: 10px;
 }
-i#burger {
-    margin-top: -60px;
-    color: white;
-    display: block;
-    text-align: right;
-    padding: 10px;
-    cursor: pointer;
+.home-title > .home-title-child > nav {
+    background-color: #4b4b4b11;
+    padding: 20px;
+    border-radius: 60px;
+    margin-bottom: 15px;
+    display: flex;
 }
-menu {
-    display: none;
-    margin-bottom: 10px;
+.home-title > .home-title-child > nav > .nav-links:hover {
+    color: aqua;
+    transition: 1s;
 }
-menu > ul {
-    list-style-type: none;
-}
-menu > ul > li > a {
-    display: block;
-    padding: 10px;
-    text-decoration: none;
-    text-align: center;
-    color: white;
-    margin-left: 20px;
-}
-menu > ul > li > a:hover {
-    transition: .3s;
-}
-header > menu > ul > li > a.nav-links {
+.home-title > .home-title-child > nav > .nav-links {
     position: relative;
-    margin: 10px;
+    margin: 5px;
     color: white;
+    justify-content: center;
+    align-items: center;
     padding: 5px;
     border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
     font-family: "Poppins", sans-serif;
 }
-header > menu > ul > li > a.nav-links::after {
+.home-title > .home-title-child > nav > .nav-links::after {
     content: "";
     position: absolute;
     background-color: aqua;
     height: 3px;
     width: 0;
     left: 0;
-    bottom: -10px;
+    bottom: -8px;
     transition: 0.5s;
 }
-header > menu > ul > li > a.nav-links:hover::after {
+.home-title > .home-title-child > nav > .nav-links:hover::after {
     width: 100%;
 }
 main {
@@ -131,6 +118,7 @@ main > .home-title > .home-title-child > h2 {
 }
 main > .home-title > .home-title-child > p {
     margin: 0 auto;
+    text-align: center;
     margin-top: 20px;
     max-width: 600px;
     font-size: 1.1em;
@@ -150,7 +138,13 @@ main > .home-title > .home-title-child > .buttons-title > button:hover{
     transform: scale(1.1);
     transition: .7s;
     cursor: pointer;
+    color: aqua;
+    border-color: aqua;
 }
+main > .home-title > .home-title-child > .buttons-title > button > a, i:hover {
+    color: aqua;
+    transition: .7s;
+} 
 main > .home-title > .home-title-child > .buttons-title {
     display: flex;
     flex-wrap: nowrap;
@@ -220,6 +214,9 @@ main > .home-title > .home-title-child > .buttons-title > .home-title-curriculum
     color: white;
     font-size: .8em;
     font-weight: 600;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
 }
 .page-projects > .projects-child > .projects-card > a:hover{
     cursor: pointer;
@@ -229,6 +226,42 @@ main > .home-title > .home-title-child > .buttons-title > .home-title-curriculum
 }
 .page-projects > .projects-child > .projects-card > a {
     text-decoration: none;
+}
+.page-projects > .projects-child > .projects-card > .tags {
+    display: flex;
+    padding-bottom: 10px;
+    flex-wrap: wrap;
+}
+.page-projects > .projects-child > .projects-card > .tags > .tags-skills {
+    padding: 8px 15px;
+    margin: 5px;
+    font-size: 14px;
+    border-radius: 20px;
+    background-color: rgba(128, 128, 128, 0.185);
+}
+.page-services > .services-child {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.page-services > .services-child > .services-card {
+    margin: 20px;
+    padding: 25px;
+    border: 3px solid white;
+    border-radius: 20px;
+    animation: apper 3s linear;
+    justify-content: space-evenly;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%;
+}
+.page-services > .title-services > h1 {
+    font-size: 2em;
+    padding: 20px;
+    text-align: center;
+}
+.page-services > .services-child > .services-card > h1 {
+    margin-bottom: 10px;
+    font-size: 1.2em;
 }
 .page-tecnologies > .title-tecnologies > h1 {
     font-family: var(--font-titulo);
@@ -248,11 +281,18 @@ main > .home-title > .home-title-child > .buttons-title > .home-title-curriculum
     animation: apper 3s linear;
     animation-timeline: view();
     animation-range: entry 0% cover 30%;
+    flex-basis: 200;
+    flex-grow: 1;
+}
+.page-tecnologies > .tecnologies-child > .tecnologies-card > img {
+    display: block;
+    margin: 0 auto;
 }
 .page-tecnologies > .tecnologies-child > .tecnologies-card > h1 {
     font-family: var(--font-titulo);
     font-size: 1.2em;
-    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
 }
 footer {
     display: flex;

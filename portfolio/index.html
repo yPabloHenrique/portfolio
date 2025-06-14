@@ -14,24 +14,22 @@
     <!-- Navegação do Site -->
     <header>
         <img src="imagens/icons8-html-50.png" alt="logo">
-        <i class="fa-solid fa-bars" style="font-size: 30px;" id="burger" onclick="clickMenu()"></i>
-        <menu id="itens">
-            <ul>
-                <li><a class="nav-links" href="#contato">Contato</a></li>
-                <li><a class="nav-links" href="#tecnologias">Tecnologias</a></li>
-                <li><a class="nav-links" href="#projetos">Projetos</a></li>
-                <li><a class="nav-links" href="#inicio">Início</a></li>
-            </ul>
-        </menu>
     </header>
 <!-- Corpo do Site -->
     <main>
 <!-- Apresentação -->
         <section class="home-title" id="inicio">
             <section class="home-title-child">
+                <nav>
+                <a class="nav-links" href="#inicio">Início</a>
+                <a class="nav-links" href="#projetos">Projetos</a>
+                <a class="nav-links" href="#servicos">Serviços</a>
+                <a class="nav-links" href="#contato"><i class="fa-solid fa-phone" style="border-radius: 50%; background-color: rgba(95, 95, 95, 0.774); padding: 10px; margin-top: -10px;"></i></a>
+                </nav>
                 <img src="imagens/image-icon-profile.jpeg" class="img-home-title">
                 <h1>Olá, sou <span class="home-title-color">Pablo Henrique</span>!</h1>
                 <h2>Desenvolvedor Full-Stack</h2>
+                <h3 style="line-height: 50px; text-align: center;">"Criatividade é a primeira etapa para o sucesso!"</h3>
                 <p>Boas vindas ao meu portfólio. Prazer, meu nome é Pablo Henrique, tenho 17 anos e sou apaixonado pelo mundo da tecnologia da informação e atuo como Desenvolvedor Full-Stack. Gosto de jogos de fps, curto estudar, ouvir música, entre outros. Crio sites, com o objetivo de ser dinâmico e responsivo, além de usar técnicas de Mobile First para ter mais visibilidade ao SEO dos navegadores e desenvolvo pequenos sistemas com algumas linguagens de programação.</p>
                     <section class="buttons-title">
                         <button class="home-title-curriculum-icon"><a href="arquivos/Currículo - SmokeDEV.pdf" class="text-curriculum" style="text-decoration: none;" type="file/pdf" download="Currículo - SmokeDEV"><i class="fa-solid fa-file"></i><span>Currículo</span></a></button>
@@ -51,43 +49,66 @@
                     <section class="projects-card">
                         <h1>Portfólio</h1>
                         <p style="padding: 5px; margin-bottom: 10px; margin-top: 10px;"><span style="margin-right: 5px;">🟢</span>Concluído</p>
-                        <p>Esse projeto foi feito com bastante dedicação e planejamento, com o objetivo de exibir meus projetos e começar na carreira com o pé direito, com técnicas que utilizei para deixar o mais responsivo possível para a melhoria da experiência do cliente. para esse projeto eu usei as seguintes tecnologias: HTML, CSS e Javascript.</p>
+                        <p>Esse projeto foi feito com bastante dedicação e planejamento, com o objetivo de exibir meus projetos e começar na carreira com o pé direito, com técnicas que utilizei para deixar o mais responsivo possível para a melhoria da experiência do cliente.</p>
+                        <p class="tags"><span class="tags-skills">HTML</span> <span class="tags-skills">CSS</span> <span class="tags-skills">Javascript</span></p>
                         <a href="https://github.com/smokesmk/portfolio/" rel="external" target="_blank">Veja esse projeto aqui.</a>
                     </section>
                     <section class="projects-card">
                         <h1>Site CEPMNA</h1>
                         <p style="padding: 5px; margin-bottom: 10px; margin-top: 10px;"><span style="margin-right: 5px;">🟡</span>Em desenvolvimento</p>
-                        <p>Um site que fiz como forma de treino para a minha escola de forma independente, tem como objetivo ser responsivo, além trazer informações sobre a instituição. O desenvolvimento desse site foi ótimo, além do design moderno aplicado por meus tutores que faço curso de forma independente. Ele possui as seguintes tecnologias: HTML, CSS e Javascript.</p>
+                        <p>Um site que fiz como forma de treino para a minha escola de forma independente, tem como objetivo ser responsivo, além trazer informações sobre a instituição. O desenvolvimento desse site foi ótimo, além do design moderno aplicado por meus tutores que faço curso de forma independente.</p>
+                        <p class="tags"><span class="tags-skills">HTML</span> <span class="tags-skills">CSS</span> <span class="tags-skills">Javascript</span></p>
                         <a href="#" rel="external" target="_blank">Projeto em andamento.</a>
                     </section>
                     <section class="projects-card">
                         <h1>Site Mugiwaras</h1>
                         <p style="padding: 5px; margin-bottom: 10px; margin-top: 10px;"><span style="margin-right: 5px;">🟡</span>Em desenvolvimento</p>
                         <p>É um projeto futuro que está sendo desenvolvido em prol a uma comunidade no Discord chamada Mugiwaras, um servidor de interação que atuo como Moderador, o propósito dele é nos apresentar, mostrar nossas metodologias e expor a equipe por trás desse projeto e um recrutamento para participar da corporação.</p>
+                        <p class="tags"><span class="tags-skills">HTML</span> <span class="tags-skills">CSS</span> <span class="tags-skills">Javascript</span></p>
                         <a href="https://github.com/Smokesmk/project-mugiwaras" rel="external" target="_blank">Projeto em andamento.</a>
                     </section>
                     <section class="projects-card">
                         <h1>Site Android</h1>
                         <p style="padding: 5px; margin-bottom: 10px; margin-top: 10px;"><span style="margin-right: 5px;">🟢</span>Concluído</p>
-                        <p>Um projeto simples, feito durante meu curso de HTML e CSS, ofertado pelo <a href="https://cursoemvideo.com" rel="external" target="_blank">Curso em Vídeo</a>. Que tem como objetivo expor o sistema operacional Android e mostrar sua história e evolução ao longo dos anos e testar meus conhecimentos durante o curso, foi muito gratificante fazer ele. E as tecnologias utilizadas foram: HTML e CSS.</p>
+                        <p>Um projeto simples, feito durante meu curso de HTML e CSS, ofertado pelo <a href="https://cursoemvideo.com" rel="external" target="_blank">Curso em Vídeo</a>. Que tem como objetivo expor o sistema operacional Android e mostrar sua história e evolução ao longo dos anos e testar meus conhecimentos durante o curso, foi muito gratificante fazer ele.</p>
+                        <p class="tags"><span class="tags-skills">HTML</span> <span class="tags-skills">CSS</span></p>
                         <a href="https://github.com/smokesmk/projeto-android" rel="external" target="_blank">Veja esse projeto aqui.</a>
                     </section>
                     <section class="projects-card">
                         <h1>Site Carrd</h1>
                         <p style="padding: 5px; margin-bottom: 10px; margin-top: 10px;"><span style="margin-right: 5px;">🟢</span>Concluído</p>
                         <p>Aqui está meu carrd, meu antigo portfólio. Onde mostro outras funções que faço em tempo livre, atualmente sou administrador de comunidades geek e jogos. Fique a vontade para visualizar e quem sabe me encontrar nas comunidades que atuo. Usei o site do carrd para fazer esse mini portfólio.</p>
+                        <p class="tags"><span class="tags-skills">Carrd</span></p>
                         <a href="https://ysmoke.carrd.co/" rel="external" target="_blank">Veja esse projeto aqui.</a>
                     </section>
                     <section class="projects-card">
                         <h1>Site Weather</h1>
                         <p style="padding: 5px; margin-bottom: 10px; margin-top: 10px;"><span style="margin-right: 5px;">🟡</span>Em desenvolvimento</p>
                         <p>Um mini projeto de tempo, onde uso HTML, CSS e Javascript ao meu favor. O sistema é bem simples, mas bem útil para o dia a dia, quem nunca olhou para uma previsão do tempo em jornais, né? Busca focar em trazer precisão na busca e na temperatura atual, além de claro, trazer prioridade na experiência ao cliente.</p>
+                        <p class="tags"><span class="tags-skills">HTML</span> <span class="tags-skills">CSS</span> <span class="tags-skills">Javascript</span></p>
                         <a href="#" rel="external" target="_blank">Projeto em andamento.</a>
                     </section>
                 </section>
         </section>
+<!-- Serviços -->
+        <section class="page-services" id="servicos">
+            <section class="title-services">
+                <hr>
+                <h1>Serviços</h1>
+            </section>
+            <section class="services-child">
+                <section class="services-card">
+                    <h1>Websites</h1>
+                    <p>Crio sites com o intuito de funcionar no máximo de telas possíveis, trazendo mais mobilidade e experiência mais prazerosa ao cliente. Ademais, as aplicações também têm design simples como prioridade. Atualmente, estou estudando técnicas para os meus projetos futuros.</p>
+                </section>
+                <section class="services-card">
+                    <h1>SEO</h1>
+                    <p>Meu objetivo como desenvolvedor do projeto, é buscar estudar o comportamento da aplicação e trazer responsividade e com foco na experiência ao cliente, uso mobile first para facilitar a busca pelos navegadores de internet, como: Google, Opera, Firefox, entre outros.</p>
+                </section>
+            </section>
+        </section>
 <!-- Tecnologias -->
-        <section class="page-tecnologies" id="tecnologias">
+        <section class="page-tecnologies">
             <section class="title-tecnologies">
                 <hr>
                 <h1>Tecnologias</h1>
@@ -96,36 +117,26 @@
                 <section class="tecnologies-card">
                     <img src="imagens/icons8-html.png" alt="HTML Logo">
                     <h1>HTML</h1>
-                    <p style="padding: 5px; margin-bottom: 10px; margin-top: 10px;"><span style="margin-right: 5px;">🟡</span>Intermediário</p>
-                    <p>Uso essa tecnologia para aplicações web, onde exibo a estrutura para passar na estilização. Aprendi essa tecnologia através de cursos online como o <a href="https://cursoemvideo.com" rel="external" target="_blank">Curso em Vídeo</a> e <a href="https://devmedia.com.br" rel="external" target="_blank">DEVMedia</a> onde me fascinei do que ele pode fazer e como ele se destaca no mercado, além de ser a porta de entrada para a minha área.</p>
                 </section>
                 <section class="tecnologies-card">
                     <img src="imagens/icons8-css-50.png" alt="CSS Logo">
                     <h1>CSS</h1>
-                    <p style="padding: 5px; margin-bottom: 10px; margin-top: 10px;"><span style="margin-right: 5px;">🟡</span>Intermediário</p>
-                    <p>Uso essa tecnologia para aplicações web, onde exibo a estilização do site. Auxilia o documento HTML que criei para produzir o design. Aprendi essa tecnologia através de cursos online, onde me fascinei do que ele pode fazer e como ele se destaca no mercado, além de ser a porta de entrada para a minha área.</p>
                 </section>
                 <section class="tecnologies-card">
                     <img src="imagens/icons8-javascript-50.png" alt="Javascript Logo">
                     <h1>Javascript</h1>
-                    <p style="padding: 5px; margin-bottom: 10px; margin-top: 10px;"><span style="margin-right: 5px;">🔵</span>Básico</p>
-                    <p>Uso essa tecnologia para a interatividade da minha aplicação web, além disso, eu uso métodos para a melhoria da experiência do cliente e simplicidade do mesmo. Ainda estou aprendendo essa tecnologia em cursos online e me deixou muito entusiasmado para aprender e aplicar em meu projetos para deixá-los mais vivos.</p>
                 </section>
                 <section class="tecnologies-card">
                     <img src="imagens/icons8-python-50.png" alt="Python Logo">
                     <h1>Python</h1>
-                    <p style="padding: 5px; margin-bottom: 10px; margin-top: 10px;"><span style="margin-right: 5px;">🔵</span>Básico</p>
-                    <p>Uso essa tecnologia para sistematizar em minhas aplicações como: Sistema de Login/Cadastrar, verificação de idade, entre outros. Eu estou aprendendo essa linguagem através de cursos online, como o <a href="https://cursoemvideo.com" rel="external" target="_blank">Curso em Vídeo</a> e <a href="https://devmedia.com.br" rel="external" target="_blank">DEVMedia</a> que estão me auxiliando para aplicar os conhecimentos compartilhados em projetos futuros.</p>
                 </section>
                 <section class="tecnologies-card">
                     <img src="imagens/icons8-janelas-11-50.png" alt="Windows Logo">
                     <h1>Windows</h1>
-                    <p>Uso como meu sistema operacional principal, junto com as demais ferramentas, como, o GitHub, HandBrake e afins. Onde tenho mais liberdade e facilidade para trabalhar. Além da flexibilidade e costume de usá-lo, faz com o que seja mais produtivo ao meu ver. Com ele, tenho acesso a vários aplicativos necessários para meus projetos, além de ser compatível com os mesmos.</p>
                 </section>
                 <section class="tecnologies-card">
                     <img src="imagens/icons8-visual-studio-code-2019-50.png" alt="Visual Studio Code Logo">
-                    <h1>Visual Studio Code</h1>
-                    <p>É a minha IDE principal e preferida por mim, pela simplicidade. Uso ela para os meus projetos de sites e estudos com as demais linguagens de programação. Com recomendação dos meus professores, uso em meu desenvolvimento profissional na área, explorando e descobrindo coisas novas. Uso para fazer sites simples e responsivos e crio mini sistemas com as lingugens de programação que a mesma me oferece.</p>
+                    <h1>Studio Code</h1>
                 </section>
             </section>
         </section>
@@ -134,6 +145,7 @@
                 <hr>
     <footer class="page-contacts" id="contato">
         <section class="footer-credits-buttons">
+            <button><a href="mailto:smokestudioscomercial@gmail.com" rel="external" target="_blank"><i class="fa-solid fa-envelope" style="color: #ffffff;"></i></a></button>
             <button><a href="https://bsky.app/profile/ysmoke.bsky.social" rel="external" target="_blank"><i class="fa-brands fa-bluesky" style="color: #ffffff;"></i></a></button>
             <button><a href="https://www.instagram.com/ysmoke.smk/" rel="external" target="_blank"><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></a></button>
             <button><a href="https://x.com/y_Smoke_55" rel="external" target="_blank"><i class="fa-brands fa-x-twitter" style="color: #ffffff;"></i></a></button>
