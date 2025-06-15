@@ -48,6 +48,7 @@ header > img {
     border-radius: 60px;
     margin-bottom: 15px;
     display: flex;
+    justify-content: center;
 }
 .home-title > .home-title-child > nav > .nav-links:hover {
     color: aqua;

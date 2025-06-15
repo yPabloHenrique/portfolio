@@ -1,23 +1,6 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 768px) {
-
-i#burger {
-        display: none;
-    }
-    menu {
-        display: block;
-    }
-    menu > ul > li {
-        display: block;
-        float: right;
-        margin-top: -45px;
-    }
-    main {
-        display: block;
-        margin: 0 auto;
-        max-width: 1400px;
-    }
     main > .home-title > .home-title-child > img {
         margin: 0 auto;
     }
