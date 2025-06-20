@@ -35,10 +35,9 @@ h1 {
     font-size: 3em;
 }
 p {
-    font-size: 1.1em;
+    font-size: 80.5%;
 }
 body {
-    font-size: 80.5%;
     background-color: black;
 }
 header {
@@ -189,7 +188,6 @@ main > .home-title > .home-title-child > .buttons-title > .home-title-curriculum
     display: flex;
     flex-direction: column;
     margin-top: 20px;
-    font-size: 80.5%;
 }
 .page-projects > .title-projects > h1 {
     font-family: var(--font-titulo);
@@ -248,7 +246,6 @@ main > .home-title > .home-title-child > .buttons-title > .home-title-curriculum
     background-color: rgba(128, 128, 128, 0.185);
 }
 .page-services > .services-child {
-    font-size: 80.5%;
     margin-top: 20px;
     display: flex;
     flex-direction: column;
@@ -279,7 +276,6 @@ main > .home-title > .home-title-child > .buttons-title > .home-title-curriculum
     text-align: center;
 }
 .page-tecnologies > .tecnologies-child {
-    font-size: 80.5%;
     display: flex;
     flex-direction: column;
 }
@@ -333,6 +329,6 @@ footer > .footer-credits-buttons > button > a > i {
     font-size: 20px;
 }
 footer > .footer-credits > h1 {
-    font-size: 14px;
+    font-size: 0.9em;
     text-align: center;
 }
