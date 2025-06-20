@@ -1,6 +1,9 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 768px) {
+    body {
+        font-size: 85%;
+    }
     main > .home-title > .home-title-child > img {
         margin: 0 auto;
     }
