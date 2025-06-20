@@ -31,6 +31,12 @@
     color: var(--cor-padrao-dark);
     font-family: var(--font-padrao);
 }
+html {
+    font-size: 80.5%;
+}
+h1 {
+    font-size: 3em;
+}
 body {
     background-color: black;
 }
