@@ -106,7 +106,7 @@ header > .topo > .menu > nav > a:hover::after {
 
 @media screen and (max-width: 380px) {
     main > .home-title > .home-title-child > nav {
-        display: none;
+        margin: auto;
     }
     main > .home-title > .home-title-child > .buttons-title > .home-title-curriculum-icon {
         padding: 15px;
