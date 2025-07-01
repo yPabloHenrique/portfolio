@@ -43,14 +43,19 @@ header {
     margin-right: 40px;
     margin-left: 40px;
 }
-header > img {
-    margin-top: 10px;
+header > .topo > .topo-child > h1 > a {
+    color: aqua;
+    font-size: 0.8em;
+    text-decoration: none;
+}
+header > .topo > .menu > nav {
+    display: none;
 }
 .home-title > .home-title-child > nav {
     background-color: #4b4b4b11;
     padding: 20px;
     border-radius: 60px;
-    margin-bottom: 15px;
+    margin-bottom: 35px;
     display: flex;
     justify-content: center;
 }
@@ -102,6 +107,7 @@ main > .home-title > .home-title-child {
 main > .home-title > .home-title-child > img {
     display: block;
     margin: 0 auto;
+    padding: 20px;
     max-width: 200px;
     border-radius: 50%;
     border: transparent;
@@ -142,11 +148,8 @@ main > .home-title > .home-title-child > .buttons-title > button:hover{
     transform: scale(1.1);
     transition: .7s;
     cursor: pointer;
-    color: aqua;
-    border-color: aqua;
 }
 main > .home-title > .home-title-child > .buttons-title > button > a, i:hover {
-    color: aqua;
     transition: .7s;
 } 
 main > .home-title > .home-title-child > .buttons-title {

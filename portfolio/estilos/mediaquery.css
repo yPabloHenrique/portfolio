@@ -4,6 +4,72 @@
     body {
         font-size: 85%;
     }
+    header {
+        display: block;
+    }
+header > .topo {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+    padding-top: 10px;
+}
+header > .topo-child {
+    font-size: 0.7em;
+}
+header > .topo > .topo-child > h1, h2 {
+    color: aqua;
+}
+ header > .topo > .topo-child > h2 {
+    font-size: 10px;
+}
+header > .topo > .topo-child > h1 > img {
+    width: 28px;
+    margin-right: 5px;
+}
+header > .topo > .menu > nav {
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+}
+header > .topo > .menu > nav > a {
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+header > .topo > .menu > nav > a:hover {
+    color: aqua;
+    transition: 0.7s;
+}
+header > .topo > .menu > nav > a {
+    position: relative;
+    margin: 5px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+}
+header > .topo > .menu > nav > a::after {
+    content: "";
+    position: absolute;
+    background-color: aqua;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -8px;
+    transition: 0.5s;
+}
+header > .topo > .menu > nav > a:hover::after {
+    width: 100%;
+}
+    main > .home-title > .home-title-child > nav {
+        display: none;
+    }
     main > .home-title > .home-title-child > img {
         margin: 0 auto;
     }
