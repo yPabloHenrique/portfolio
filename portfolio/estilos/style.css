@@ -34,6 +34,9 @@
 h1 {
     font-size: 3em;
 }
+p {
+    line-height: 25px;
+}
 body {
     font-size: 72.5%;
     background-color: black;
@@ -189,6 +192,7 @@ main > .home-title > .home-title-child > .buttons-title > .home-title-curriculum
     display: flex;
     flex-direction: column;
     margin-top: 20px;
+    border-top: 2px solid #ffffff;
 }
 .page-projects > .title-projects > h1 {
     font-family: var(--font-titulo);
@@ -246,6 +250,9 @@ main > .home-title > .home-title-child > .buttons-title > .home-title-curriculum
     border-radius: 20px;
     background-color: rgba(128, 128, 128, 0.185);
 }
+.page-services {
+    border-top: 2px solid #ffffff;
+}
 .page-services > .services-child {
     margin-top: 20px;
     display: flex;
@@ -269,6 +276,9 @@ main > .home-title > .home-title-child > .buttons-title > .home-title-curriculum
 .page-services > .services-child > .services-card > h1 {
     margin-bottom: 10px;
     font-size: 1.2em;
+}
+.page-tecnologies {
+    border-top: 2px solid #ffffff;
 }
 .page-tecnologies > .title-tecnologies > h1 {
     font-family: var(--font-titulo);
@@ -306,6 +316,7 @@ footer {
     flex-wrap: wrap;
     flex-direction: column;
     padding: 20px;
+    border-top: 2px solid #ffffff;
 }
 footer > .footer-credits-buttons {
     display: block;
