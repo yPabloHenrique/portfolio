@@ -70,6 +70,10 @@ header > .topo > .menu > nav > a:hover::after {
     main > .home-title > .home-title-child > nav {
         display: none;
     }
+    main > .button-up > a > i {
+        bottom: 30px;
+        right: 30px;
+    }
     main > .home-title > .home-title-child > img {
         margin: 0 auto;
     }
@@ -103,10 +107,13 @@ header > .topo > .menu > nav > a:hover::after {
         max-width: 400px;
     }
 }
-
 @media screen and (max-width: 380px) {
     main > .home-title > .home-title-child > nav {
         margin: auto;
+    }
+    main > .button-up > a > i {
+        bottom: 10px;
+        right: 10px;
     }
     main > .home-title > .home-title-child > .buttons-title > .home-title-curriculum-icon {
         padding: 15px;
