@@ -99,7 +99,7 @@ main {
 }
 main > .button-up {
     position: relative;
-    font-size: 2.3em;
+    font-size: 1.7em;
 }
 main > .button-up > a > i {
     position: fixed;
