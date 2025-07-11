@@ -110,6 +110,7 @@ main > .button-up > a > i {
     border-radius: 50%;
     text-align: center;
     cursor: pointer;
+    z-index: 1;
 }
 main > .home-title {
     display: flex;
