@@ -238,7 +238,7 @@ main > .home-title > .home-title-child > .buttons-title > .home-title-curriculum
     border: 3px solid white;
     background-color: var(--background-dark);
     color: white;
-    font-size: .8em;
+    font-size: 1em;
     font-weight: 600;
     display: block;
     margin: 0 auto;
