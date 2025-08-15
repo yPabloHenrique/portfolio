@@ -48,11 +48,17 @@ header {
 }
 header > .topo > .topo-child > h1 > a {
     color: aqua;
-    font-size: 0.8em;
+    font-size: 0.7em;
     text-decoration: none;
+}
+header > .topo > .topo-child > h1 > a > span {
+    color: white;
 }
 header > .topo > .menu > nav {
     display: none;
+}
+header > .topo > .menu > nav > a:first-of-type {
+    color: aqua;
 }
 .home-title > .home-title-child > nav {
     background-color: #4b4b4b11;
