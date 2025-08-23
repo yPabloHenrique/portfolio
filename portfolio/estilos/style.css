@@ -262,7 +262,8 @@ main > .home-title > .home-title-child > .buttons-title {
 }
 .page-projects > .projects-child > .projects-card > a:hover{
     cursor: pointer;
-    background-color: white;
+    color: black;
+    background-color: rgb(255, 255, 255);
     transition: ease-in-out 0.5s;
     color: var(--cor-padrao-light);
 }
