@@ -133,6 +133,7 @@ main > .home-title > .home-title-child {
     justify-content: center;
     justify-items: center;
     flex-grow: 1;
+    padding: 0 15px;
 }
 main > .home-title > .home-title-child > img {
     display: block;
