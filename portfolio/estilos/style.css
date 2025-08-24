@@ -254,7 +254,8 @@ main > .home-title > .home-title-child > .buttons-title {
     border: 3px solid white;
     background-color: var(--background-dark);
     color: white;
-    font-size: 1em;
+    font-size: 1.1em;
+    letter-spacing: 1.5px;
     font-weight: 600;
     display: block;
     margin: 0 auto;
@@ -265,7 +266,6 @@ main > .home-title > .home-title-child > .buttons-title {
     color: black;
     background-color: rgb(255, 255, 255);
     transition: ease-in-out 0.5s;
-    color: var(--cor-padrao-light);
 }
 .page-projects > .projects-child > .projects-card > a {
     text-decoration: none;
