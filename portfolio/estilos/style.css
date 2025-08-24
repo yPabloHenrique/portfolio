@@ -252,10 +252,10 @@ main > .home-title > .home-title-child > .buttons-title {
     padding: 15px;
     border-radius: 30px;
     border: 3px solid white;
-    background-color: var(--background-dark);
+    background-color: transparent;
     color: white;
     font-size: 1.1em;
-    letter-spacing: 1.5px;
+    letter-spacing: 1.1px;
     font-weight: 600;
     display: block;
     margin: 0 auto;
