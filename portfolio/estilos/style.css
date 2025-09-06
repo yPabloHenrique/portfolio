@@ -164,6 +164,9 @@ main > .home-title > .home-title-child > p {
     font-size: 1.1em;
     padding: 0px 10px;
 }
+.home-title-child-desk {
+    display: none;
+}
 main > .home-title > .home-title-child > .buttons-title > button {
     font-size: 1.1em;
     width: 55%;
