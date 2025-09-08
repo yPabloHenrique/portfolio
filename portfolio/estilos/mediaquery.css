@@ -86,7 +86,7 @@ header > .topo > .menu > nav > a:hover::after {
     main {
         max-width: 1000px;
         margin: 0 auto;
-        height: 90dvh;
+        height: 80dvh;
     }
     .home-title-child {
         display: none;
@@ -136,6 +136,24 @@ header > .topo > .menu > nav > a:hover::after {
     }
     .home-title-child-desk > .info-home > .buttons-title-desk > a > i {
         font-size: 1.3em;
+    }
+    .about-me-desk {
+        display: block;
+        max-width: 700px;
+        margin: 30px auto;
+        font-size: 1.1em;
+    }
+    .about-me-desk > h1 {
+        text-align: center;
+        font-size: 2.5em;
+        margin-bottom: 20px;
+    }
+    .set-down-desk {
+        display: block;
+        font-size: 2em;
+        text-align: center;
+        margin-top: -60px;
+        margin-bottom: 60px;
     }
     .page-projects > .projects-child {
         display: flex;

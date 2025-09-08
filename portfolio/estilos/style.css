@@ -167,6 +167,12 @@ main > .home-title > .home-title-child > p {
 .home-title-child-desk {
     display: none;
 }
+.about-me-desk {
+    display: none;
+}
+.set-down-desk {
+    display: none;
+}
 main > .home-title > .home-title-child > .buttons-title > button {
     font-size: 1.1em;
     width: 55%;
@@ -361,8 +367,6 @@ footer > .footer-credits-buttons {
     margin-top: 30px;
 }
 footer > .footer-credits-buttons > a {
-    border: 3px solid white;
-    border-radius: 50%;
     padding: 13px 14px;
     background-color: transparent;
 }
@@ -371,7 +375,7 @@ footer > .footer-credits-buttons > a:hover {
     transform: scale(1.1);
 }
 footer > .footer-credits-buttons > a > i {
-    font-size: 1.4em;
+    font-size: 2em;
 }
 footer > .footer-credits > p {
     font-size: 0.9em;
