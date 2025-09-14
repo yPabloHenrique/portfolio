@@ -335,7 +335,6 @@ main > .home-title > .home-title-child > .buttons-title {
 .page-tecnologies > .tecnologies-child > .tecnologies-card {
     padding: 25px;
     margin: 20px;
-    border: 3px solid white;
     border-radius: 20px;
     animation: apper 3s linear;
     animation-timeline: view();
@@ -383,4 +382,43 @@ footer > .footer-credits > p {
     margin-top: 15px;
     font-weight: 800;
     letter-spacing: 0.01em;
+}
+.credits-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 50px;
+}
+.credits-footer > .box-credits {
+    flex: 1 1 200px;
+}
+.credits-footer > .box-credits > h2 {
+    font-family: var(--font-titulo);
+    font-size: 1.9em;
+    margin-bottom: 30px;
+    color: white;
+}
+.credits-footer > .box-credits > p {
+    font-size: 1.01em;
+    line-height: 25px;
+    margin: 10px 0px;
+}
+.credits-footer > .box-credits > p > span {
+    font-weight: 600;
+    color: aqua;
+}
+.credits-footer > .box-credits > p > a {
+    text-decoration: none;
+}
+.credits-footer > .box-credits > p > a:hover {
+    color: aqua;
+    transition: 0.5s;
+}
+.credits-footer > .box-credits > .credits-rs > a {
+    padding: 10px;
+}
+.credits-footer > .box-credits > .credits-rs > a > i {
+    font-size: 1.6em;
+    margin-top: 20px;
+    margin-right: 25px;
 }
