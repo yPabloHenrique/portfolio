@@ -361,13 +361,14 @@ main > .home-title > .home-title-child > .buttons-title {
     gap: 50px;
 }
 .credits-footer > .box-credits {
-    flex: 1 1 200px;
+    flex: 1 1 250px;
 }
 .credits-footer > .box-credits > h2 {
     font-family: var(--font-titulo);
     font-size: 1.9em;
     margin-bottom: 30px;
     color: white;
+    margin-top: 20px;
 }
 .credits-footer > .box-credits > p {
     font-size: 1.01em;
