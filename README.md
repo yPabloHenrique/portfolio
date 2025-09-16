@@ -12,4 +12,6 @@ O que você encontrará aqui:
 Fique a vontade para ver o que posto e farei o possível para terminar os projetos propostos para exibi-los aqui também. Espero que gostem!
 
 
-Copyright © 2025 SmokeDEV | Todos os Direitos Reservados.
+Copyright © 2025 Pablo Henrique | Todos os Direitos Reservados.
+
+Desenvolvido com ❤ por **Pablo Henrique**.
