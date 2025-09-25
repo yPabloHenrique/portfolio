@@ -2,7 +2,7 @@
 
 @media screen and (min-width: 768px) {
     body {
-        font-size: 85%;
+        font-size: 90%;
     }
     header {
         display: block;
@@ -180,8 +180,8 @@ header > .topo > .menu > nav > a:hover::after {
     .page-services > .services-child > .services-card {
         max-width: 400px;
     }
-    .main-blog {
-        font-size: 100%;
+    .main-blog p {
+        line-height: 30px;
     }
 }
 @media screen and (max-width: 380px) {
