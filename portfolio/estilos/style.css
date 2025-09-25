@@ -495,7 +495,8 @@ main > .home-title > .home-title-child > .buttons-title {
 .banner-blog-materia > img {
     display: block;
     margin: 0 auto;
-    width: 90%;
+    max-width: 600px;
+    width: 100%;
     height: 350px;
 }
 .blog-article-materia > p {
