@@ -86,7 +86,7 @@ header > .topo > .menu > nav > a:hover::after {
     main {
         max-width: 1000px;
         margin: 0 auto;
-        height: 80dvh;
+        height: 600px;
     }
     .home-title-child {
         display: none;
@@ -179,6 +179,9 @@ header > .topo > .menu > nav > a:hover::after {
     }
     .page-services > .services-child > .services-card {
         max-width: 400px;
+    }
+    .main-blog {
+        font-size: 100%;
     }
 }
 @media screen and (max-width: 380px) {
