@@ -5,7 +5,7 @@
         font-size: clamp(0.9rem, 1.6vw, 1.05rem);
     }
     body {
-        font-size: 90%;
+        font-size: 85%;
     }
     header {
         display: block;
