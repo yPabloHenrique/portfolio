@@ -178,25 +178,6 @@ main > .home-title > .home-title-child > p {
 .set-down-desk {
     display: none;
 }
-main > .home-title > .home-title-child > .buttons-title > button {
-    font-size: 1.1em;
-    width: 55%;
-    background-color: transparent;
-    border: 3px solid white;
-    margin-top: 20px;
-    margin-left: 20px;
-}
-main > .home-title > .home-title-child > .buttons-title > button > a {
-    text-decoration: none;
-}
-main > .home-title > .home-title-child > .buttons-title > button:hover{
-    transform: scale(1.1);
-    transition: .7s;
-    cursor: pointer;
-}
-main > .home-title > .home-title-child > .buttons-title > button > a, i:hover {
-    transition: .7s;
-} 
 main > .home-title > .home-title-child > .buttons-title {
     display: flex;
     flex-wrap: wrap;
@@ -214,23 +195,13 @@ main > .home-title > .home-title-child > .buttons-title {
     border-radius: 80px;
 }
 .text-curriculum {
-    font-size: 0.8em;
+    font-size: 0.7em;
     border-radius: 80px;
     position: relative;
 }
-.text-curriculum::before {
-    content: "✉";
+.text-curriculum > i {
+    font-size: 1.2em;
     margin-right: 10px;
-}
-.buttons-title > .text-curriculum:hover {
-    background-color: rgb(0, 255, 255);
-    color: black;
-    font-weight: 600;
-    transition: ease-in-out 0.5s;
-    cursor: pointer;
-}
-.buttons-title > a > i {
-    font-size: 1.4em;
 }
 .page-projects {
     display: flex;
@@ -389,6 +360,8 @@ main > .home-title > .home-title-child > .buttons-title {
 }
 .credits-footer > .box-credits > p > a:hover {
     color: aqua;
+    margin-left: 10px;
+    font-weight: 600;
     transition: 0.5s;
 }
 .credits-footer > .box-credits > .credits-rs > a {
