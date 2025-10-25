@@ -371,8 +371,10 @@ main > .home-title > .home-title-child > .buttons-title {
     font-weight: 600;
     transition: 0.5s;
 }
-.credits-footer > .box-credits > .credits-rs > a {
-    padding: 10px;
+.credits-footer > .box-credits > .credits-rs {
+    display: flex;
+    gap: 20px;
+    
 }
 .credits-rs > a:hover {
     color: aqua;
