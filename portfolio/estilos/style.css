@@ -34,7 +34,7 @@
 html, body {
     -webkit-text-size-adjust: 100%;
     text-size-adjust: 100%;
-    font-size: 16px;
+    font-size: 14px;
 }
 h1 {
     font-size: 3em;
@@ -136,7 +136,6 @@ main > .home-title {
 }
 main > .home-title > .home-title-child {
     justify-content: center;
-    justify-items: center;
     flex-grow: 1;
 }
 main > .home-title > .home-title-child > img {
@@ -161,13 +160,12 @@ main > .home-title > .home-title-child > h2 {
     font-size: 2em;
     color: var(--cor-destaque-dark);
 }
-main > .home-title > .home-title-child > p {
-    margin: 0 auto;
+main > .home-title > .home-title-child p {
+    margin: 0px auto;
     text-align: center;
-    margin-top: 20px;
     max-width: 600px;
     font-size: 1.1em;
-    padding: 0px 10px;
+    padding: 30px 10px;
 }
 .home-title-child-desk {
     display: none;
@@ -178,11 +176,11 @@ main > .home-title > .home-title-child > p {
 .set-down-desk {
     display: none;
 }
-main > .home-title > .home-title-child > .buttons-title {
+main > .home-title > .home-title-child .buttons-title {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
-    justify-content: space-evenly;
+    justify-content: center;
     gap: 15px;
     margin-top: 20px;
 }
@@ -302,9 +300,6 @@ main > .home-title > .home-title-child > .buttons-title {
     margin-bottom: 10px;
     font-size: 1.2em;
 }
-.page-tecnologies {
-    border-top: 2px solid #ffffff;
-}
 .page-tecnologies > .title-tecnologies > h1 {
     font-family: var(--font-titulo);
     font-size: 2em;
@@ -313,21 +308,19 @@ main > .home-title > .home-title-child > .buttons-title {
 }
 .page-tecnologies > .tecnologies-child {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: center;
 }
 .page-tecnologies > .tecnologies-child > .tecnologies-card {
-    padding: 25px;
-    margin: 20px;
+    padding: 15px 10px;
+    margin: 0px 0px 30px 0px;
     border-radius: 20px;
-    animation: apper 3s linear;
-    animation-timeline: view();
-    animation-range: entry 0% cover 30%;
-    flex-basis: 200;
-    flex-grow: 1;
 }
 .page-tecnologies > .tecnologies-child > .tecnologies-card > img {
     display: block;
     margin: 0 auto;
+    width: 40px;
+    height: 40px;
 }
 .page-tecnologies > .tecnologies-child > .tecnologies-card > h1 {
     font-family: var(--font-titulo);
@@ -341,10 +334,10 @@ main > .home-title > .home-title-child > .buttons-title {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 50px;
+    gap: 30px;
 }
 .credits-footer > .box-credits {
-    flex: 1 1 250px;
+    flex: 1 1 275px;
 }
 .credits-footer > .box-credits > h2 {
     font-family: var(--font-titulo);
@@ -374,16 +367,16 @@ main > .home-title > .home-title-child > .buttons-title {
 .credits-footer > .box-credits > .credits-rs {
     display: flex;
     gap: 20px;
-    
 }
-.credits-rs > a:hover {
+.credits-rs > a > i:hover {
     color: aqua;
     transition: 0.5s ease-in-out;
+    transform: scale(1.1);
 }
-.credits-footer > .box-credits > .credits-rs > a > i {
-    font-size: 1.6em;
-    margin-top: 20px;
-    margin-right: 25px;
+.credits-footer > .box-credits > .credits-rs > a {
+    font-size: 1.5em;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
 .main-blog {
     display: block;
@@ -471,7 +464,7 @@ main > .home-title > .home-title-child > .buttons-title {
 }
 .container-blog-materia {
     padding: 30px;
-    max-width: 768px;
+    max-width: 922px;
     margin: 0 auto;
 }
 .blog-materia > h1 {
