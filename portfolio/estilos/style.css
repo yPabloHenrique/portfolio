@@ -142,7 +142,8 @@ main > .home-title > .home-title-child > img {
     display: block;
     margin: 0 auto;
     padding: 20px;
-    max-width: 200px;
+    height: 260px;
+    max-width: 270px;
     border-radius: 50%;
     border: transparent;
 }
