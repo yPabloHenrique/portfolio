@@ -398,7 +398,7 @@ header {
 .tec-card {
     background-color: var(--secondary-background-color);
     border-radius: 20px;
-    padding: 20px;
+    padding: 30px;
     text-align: center;
 }
 
