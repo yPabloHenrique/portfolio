@@ -404,6 +404,11 @@ header {
     border-radius: 20px;
 }
 
+.skill-card:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+
 .footer-father {
     display: flex;
     flex-wrap: wrap;
