@@ -40,7 +40,7 @@ p {
 }
 
 body {
-    background-image: linear-gradient(105deg, var(--secondary-background-color), var(--background-color)), url("../imagens/background.jpg");
+    background-image: linear-gradient(105deg, var(--background-color), var(--secondary-background-color));
     color: var(--font-color);
     background-repeat: no-repeat;
     background-size: cover;
@@ -171,6 +171,8 @@ header {
 
 .btn-projetos:hover {
     background-color: var(--secondary-color);
+    box-shadow: 0 0 10px var(--secondary-color);
+    border: 1px solid var(--secondary-color);
     color: var(--font-color);
     transition: all 0.6s ease;
 }
@@ -179,6 +181,7 @@ header {
     background-color: transparent;
     color: var(--secondary-color);
     border: var(--secondary-color) 2px solid;
+    box-shadow: 0 0 10px var(--secondary-color);
     transition: all 0.6s ease;
 }
 
@@ -230,7 +233,7 @@ header {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    padding: 60px 15px 60px 15px;
+    padding: 150px 15px 60px 15px;
     gap: 40px;
     margin: 0 auto;
 }
@@ -256,6 +259,11 @@ header {
 .img-about img {
     max-width: 250px;
     border-radius: 20px;
+}
+
+.img-about img:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease;
 }
 
 .projects {
@@ -287,6 +295,12 @@ header {
     padding: 15px;
     flex-basis: 380px;
     flex-grow: 1;
+}
+
+.projects-card:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+    box-shadow: 0 0 10px var(--primary-color);
 }
 
 .projects-card h1 {
@@ -346,6 +360,7 @@ header {
     background-color: transparent;
     color: var(--secondary-color);
     border: var(--secondary-color) 2px solid;
+    box-shadow: 0 0 10px var(--secondary-color);
     transition: 0.5s ease-in;
 }
 
@@ -358,6 +373,7 @@ header {
 .github:hover {
     background-color: var(--primary-color);
     color: var(--font-color);
+    box-shadow: 0 0 10px var(--primary-color);
     transition: 0.5s ease-in;
 }
 
@@ -390,7 +406,7 @@ header {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     flex-grow: 1;
     gap: 15px;
 }
@@ -401,12 +417,22 @@ header {
     flex-wrap: wrap;
     background-color: var(--secondary-background-color);
     padding: 20px;
+    flex-grow: 1;
+    margin: 0 auto;
     border-radius: 20px;
 }
 
 .skill-card:hover {
     transform: scale(1.1);
     transition: all 0.3s ease;
+    border: 0.5px solid var(--primary-color);
+    box-shadow: 0 0 10px var(--primary-color);
+    color: var(--primary-color);
+}
+
+.skill-card img {
+    max-width: 80px;
+    margin: 0 auto;
 }
 
 .footer-father {
