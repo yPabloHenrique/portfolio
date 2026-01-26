@@ -11,8 +11,8 @@
         }
 
 :root {
-    --primary-color: #5cbeff;
-    --secondary-color: #00c0ce;
+    --primary-color: #addeff;
+    --secondary-color: #00909b;
     --font-color: #f4f4f4;
     --background-color: #000000;
     --background-color-transparent: transparent;
@@ -89,7 +89,9 @@ header {
 }
 
 .nav-info h1 span {
-    color: var(--secondary-color);
+    background-image: linear-gradient(to right, var(--secondary-color), var(--primary-color), var(--secondary-color));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .nav-info p {
@@ -132,7 +134,9 @@ header {
 }
 
 .home-info h1 span {
-    color: var(--secondary-color);
+    background-image: linear-gradient(to right, var(--secondary-color), var(--primary-color), var(--secondary-color));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .home-info h2 {
@@ -246,7 +250,9 @@ header {
 .info-about h1 {
     font-size: 3rem;
     text-align: center;
-    color: var(--secondary-color);
+    background-image: linear-gradient(to right, var(--secondary-color), var(--primary-color), var(--secondary-color));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
     margin-bottom: 20px;
 }
 
@@ -273,7 +279,9 @@ header {
 .projects h1 {
     text-align: center;
     font-size: 3rem;
-    color: var(--secondary-color);
+    background-image: linear-gradient(to right, var(--secondary-color), var(--primary-color));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
     margin-bottom: 50px;
 }
 
@@ -359,7 +367,6 @@ header {
 .btn-project:hover {
     background-color: transparent;
     color: var(--secondary-color);
-    border: var(--secondary-color) 2px solid;
     box-shadow: 0 0 10px var(--secondary-color);
     transition: 0.5s ease-in;
 }
@@ -384,7 +391,9 @@ header {
 .tecnologies h1 {
     text-align: center;
     font-size: 3rem;
-    color: var(--secondary-color);
+    background-image: linear-gradient(to right, var(--secondary-color), var(--primary-color));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .tec-father {
@@ -451,14 +460,23 @@ header {
    padding: 10px 0px;
 }
 
+.rs a {
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .rs a img {
     width: 30px;
     padding: 10px;
-    border-radius: 15px;
     background-color: var(--secondary-background-color);
 }
 
 .rs a:hover {
+    border-radius: 15px;
+    box-shadow: 0 0 10px var(--primary-color);
     transform: scale(1.1);
     transition: all 0.3s ease;
 }
@@ -468,7 +486,9 @@ header {
 }
 
 .footer-child h2 {
-    color: var(--secondary-color);
+    background-image: linear-gradient(to right, var(--secondary-color), var(--primary-color), var(--secondary-color));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-size: 1.5rem;
 }
 
