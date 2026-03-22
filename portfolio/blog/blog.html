@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="msapplication-navbutton-color" content="#00FFFF">
@@ -12,143 +13,94 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pablo Henrique - Blog</title>
 </head>
+
 <body>
-    <div class="header finisher-header" style="width: 100%;">
-        <header id="inicio">
-        <div class="topo">
-        <div class="topo-child">
-            <h1><a href="../index.html" rel="follow"><span>Pablo</span> Henrique</a></h1>
-        </div>
-        <div class="menu">
-            <nav>
-                <a href="../index.html" rel="follow" style="color: white;">Início</a>
-                <a href="../index.html#projetos" rel="follow">Projetos</a>
-                <a href="../index.html#contato" rel="follow">Contato</a>
-                <a href="blog.html" rel="follow" style="color: aqua;">Blog</a>
-            </nav>
-        </div>
-    </div>
+    <header id="inicio">
+        <section class="navbar">
+            <section class="nav-logo">
+                <img src="../imagens/logo.png" alt="Logo" class="logo">
+                <section class="nav-info">
+                    <h1>Pablo <span>Henrique</span></h1>
+                    <p>Desenvolvedor Full-Stack</p>
+                </section>
+            </section>
+            <section class="nav-links">
+                <a href="../index.html#home">Início</a>
+                <a href="../index.html#about">Sobre</a>
+                <a href="../index.html#projects">Projetos</a>
+                <a href="../index.html#contact">Contato</a>
+            </section>
+        </section>
     </header>
     <main class="main-blog">
         <section class="container-blog">
-            <h1>Blog Pessoal</h1>
-            <span>Início</span><span>Blog</span>
-            <p class="paragraph-info-blog">Boas vindas ao meu blog, onde arquivos meus artigos e deixo público para compartilhar meus meios de pensamento e publicação de projetos futuros com detalhes. Espero que gostem!</p>
+            <h1><span>Blog Pessoal</span></h1>
+            <span id="direct-blog">Início</span><span>Blog</span>
+            <p class="paragraph-info-blog">Boas vindas ao meu blog, onde arquivos meus artigos e deixo público para
+                compartilhar meus meios de pensamento e publicação de projetos futuros com detalhes. Espero que gostem!
+            </p>
         </section>
     </main>
-        <section class="blog-section">
-            <section class="blog-article">
-                <section class="img-ap">
-                    <img src="../imagens/codificacao-de-programa-de-computador-na-tela.jpg" alt="blog-1">
-                </section>
-                <section class="info-ap">
-                    <h2>Apresentação!</h2>
-                    <p><span>Publicado em 17 de Setembro de 2025 às 23:00</span></p>
-                    <p><span>Atualizado em 25 de Outubro de 2025 às 09:50</span></p>
-                    <p class="paragraph-info-blog">Este é o meu primeiro artigo no blog! Estou muito animado para compartilhar meus pensamentos e projetos com vocês. Fiquem ligados para mais atualizações!</p>
-                </section>
-                <a href="apresentacao.html">Leia mais...</a>
+    <section class="blog-section">
+        <section class="blog-article">
+            <section class="info-ap">
+                <h2>Apresentação!</h2>
+                <p><span class="date-posting-blog">Publicado em 17 de Setembro de 2025 às 23:00</span></p>
+                <p><span class="date-posting-blog">Atualizado em 25 de Outubro de 2025 às 09:50</span></p>
+                <p class="paragraph-info-blog">Este é o meu primeiro artigo no blog! Estou muito animado para
+                    compartilhar meus pensamentos e projetos com vocês. Fiquem ligados para mais atualizações!</p>
             </section>
-            <section class="blog-article">
-                <section class="img-ap">
-                    <img src="../imagens/renderizacao-3d-de-um-fundo-de-tecnologia-com-codigo-sobre-cabeca-masculina.jpg" alt="blog-2">
-                </section>
-                <section class="info-ap">
-                    <h2>Pare de Usar IA da Forma Errada!</h2>
-                    <p><span>Publicado em 24 de Setembro de 2025 às 23:00</span></p>
-                    <p><span>Atualizado em 25 de Outubro de 2025 às 09:50</span></p>
-                    <p class="paragraph-info-blog">Aqui, apresento minha opinião sobre o uso inadequado de inteligências artificiais e como devemos evitar de ter esse tipo de hábito no cotidiano. Lembre-se, IA é o seu assistente, não seu empregado!</p>
-                </section>
-                <a href="pare-de-usar-ia-da-forma-errada.html">Leia mais...</a>
+            <a href="apresentacao.html">Leia mais...</a>
+        </section>
+        <section class="blog-article">
+            <section class="info-ap">
+                <h2>Pare de Usar IA da Forma Errada!</h2>
+                <p><span class="date-posting-blog">Publicado em 24 de Setembro de 2025 às 23:00</span></p>
+                <p><span class="date-posting-blog">Atualizado em 25 de Outubro de 2025 às 09:50</span></p>
+                <p class="paragraph-info-blog">Aqui, apresento minha opinião sobre o uso inadequado de inteligências
+                    artificiais e como devemos evitar de ter esse tipo de hábito no cotidiano. Lembre-se, IA é o seu
+                    assistente, não seu empregado!</p>
             </section>
-            <section class="blog-article">
-                <section class="img-ap">
-                    <img src="../imagens/image-replace.png" alt="blog-2">
+            <a href="pare-de-usar-ia-da-forma-errada.html">Leia mais...</a>
+        </section>
+    </section>
+    <!-- Footer do Site -->
+    <footer id="contact">
+        <section class="footer-father">
+            <section class="footer-child">
+                <h2>Pablo Henrique</h2>
+                <section class="rs">
+                    <a href="https://www.linkedin.com/in/pablohenriquedevoloper" target="_blank" aria-label="LinkedIn"
+                        rel="external"><img src="../imagens/linkedin-icon.png" alt="LinkedIn"></a>
+                    <a href="https://x.com/y_Smoke_55" target="_blank" aria-label="Twitter" rel="external"><img
+                            src="../imagens/twitter-icon.png" alt="Twitter"></a>
+                    <a href="https://instagram.com/ysmoke.smk" target="_blank" aria-label="Instagram"
+                        rel="external"><img src="../imagens/instagram-icon.png" alt="Instagram"></a>
                 </section>
-                <section class="info-ap">
-                    <h2>Em Breve...</h2>
-                    <p><span>Publicado em ?? de ?? de ????</span></p>
-                    <p>Descrição em elaboração...</p>
-                </section>
-                <a href="#">Em breve...</a>
+                &copy; 2026 <span>Pablo Henrique</span>. Todos os Direitos Reservados.
             </section>
-        <!-- Footer do Site -->
-    <footer class="page-contacts" id="contato">
-            <section class="credits-footer">
-                <section class="box-credits">
-                    <h2>Pablo Henrique</h2>
-                    <section class="credits-rs">
-                                    <a href="https://github.com/yPabloHenrique" class="home-title-buttons-icons" rel="external" aria-label="Github" target="_blank"><i class="fa-brands fa-github"></i></a>   
-                                    <a href="https://www.instagram.com/ysmoke.smk/" rel="external" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
-                                    <a href="https://x.com/y_Smoke_55" rel="external" target="_blank" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
-                                    <a href="https://discord.com/users/963122059674800158" rel="external" target="_blank" aria-label="Discord"><i class="fa-brands fa-discord"></i></a>
-                </section>
-                    <p>"Criatividade é a primeira etapa para o sucesso!"</p>
-                    <p>Desenvolvido com ❤ e muito ☕ por <span>Pablo Henrique</span>.</p>
-                </section>
-                <section class="box-credits">
-                    <h2>Links Rápidos</h2>
-                    <p><a href="../index.html#inicio" rel="follow">Início</a></p>
-                    <p><a href="../index.html#projetos" rel="follow">Projetos</a></p>
-                    <p><a href="blog.html" rel="follow">Blog</a></p>
-                    <p><a href="../index.html#contato" rel="follow">Contato</a></p>
-                </section>
-                <section class="box-credits">
-                    <h2>Tecnologias</h2>
-                    <p>HTML</p>
-                    <p>CSS</p>
-                    <p>Javascript</p>
-                    <p>Python</p>
-                    <p>Windows</p>
-                    <p>Visual Studio Code</p>
-                </section>
-                <section class="box-credits">
-                    <h2>Contato</h2>
-                        <p><i class="fa-solid fa-map-pin"></i> Maranhão - Brasil</p>
-                        <p><a href="mailto:trabalhopablohenrique@gmail.com"><i class="fa-solid fa-envelope"></i> trabalhopablohenrique@gmail.com</a></p>
-                        <p><a href="https://wa.me/98985553200"><i class="fa-brands fa-whatsapp"></i> +55 98 98555-3200</a></p>
-                </section>
+            <section class="footer-child">
+                <h2>Links Rápidos</h2>
+                <p><a href="#about">Sobre</a></p>
+                <p><a href="#projects">Projetos</a></p>
+                <p><a href="blog/blog.html" rel="follow">Blog</a></p>
             </section>
-        </footer>
-    </div>
-    <script src="../finisher-header.es5.min.js" type="text/javascript"></script>
-    <script type="text/javascript">
-new FinisherHeader({
-  "count": 100,
-  "size": {
-    "min": 5,
-    "max": 10,
-    "pulse": 0
-  },
-  "speed": {
-    "x": {
-      "min": 0,
-      "max": 1,
-    },
-    "y": {
-      "min": 0,
-      "max": 0.8,
-    }
-  },
-  "colors": {
-    "background": "#000000",
-    "particles": [
-      "#fbfcca",
-      "#d7f3fe",
-      "#ffd0a7"
-    ]
-  },
-  "blending": "overlay",
-  "opacity": {
-    "center": 1,
-    "edge": 0
-  },
-  "skew": 0,
-  "shapes": [
-    "c"
-  ]
-});
-</script>
-    <script src="https://kit.fontawesome.com/2dc12609db.js" crossorigin="anonymous"></script>
-</body>
+            <section class="footer-child">
+                <h2>Tecnologias</h2>
+                <p>HTML</p>
+                <p>CSS</p>
+                <p>JavaScript</p>
+                <p>Python</p>
+                <p>Visual Studio Code</p>
+            </section>
+            <section class="footer-child">
+                <h2>Contato</h2>
+                <p>Maranhão - Brasil</p>
+                <p>Email: <a href="mailto:trabalhopablohenrique@gmail.com" target="_blank"
+                        rel="external">trabalhopablohenrique@gmail.com</a></p>
+                <p>Telefone: <a href="tel:+5598985553200" target="_blank" rel="external">+55 (98) 98555-3200</a></p>
+            </section>
+        </section>
+    </footer>
+
 </html>
