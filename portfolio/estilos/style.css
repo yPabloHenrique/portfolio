@@ -15,7 +15,7 @@
     --primary-color: #addeff;
     --secondary-color: #00909b;
     --font-color: #f4f4f4;
-    --background-color: #000000;
+    --background-color: #030303;
     --background-color-transparent: transparent;
     --secondary-background-color: rgba(18, 22, 24, 0.8);
     --font-color-html: #e34c26;
@@ -41,7 +41,7 @@ p {
 }
 
 body {
-    background-image: linear-gradient(105deg, var(--background-color), var(--secondary-background-color));
+    background-color: var(--background-color);
     color: var(--font-color);
     background-repeat: no-repeat;
     background-size: cover;
@@ -556,7 +556,7 @@ p {
     background-color: var(--secondary-background-color);
     border-radius: 30px;
     padding: 20px;
-    margin: 15px;
+    margin: 15px 40px 0px 25px;
     flex-basis: 330px;
     justify-content: space-between;
     flex-grow: 1;
@@ -641,6 +641,16 @@ p {
 
 .blog-materia p:last-child {
     color: var(--primary-color);
+}
+
+blockquote > p:first-child {
+    border-left: 4px solid var(--primary-color);
+    padding-left: 15px;
+    margin-left: 0;
+    font-style: italic;
+    
+    color: var(--primary-color);
+    margin-bottom: 20px;
 }
 
 .tags-blog {
